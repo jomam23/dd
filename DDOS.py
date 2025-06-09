@@ -40,7 +40,7 @@ url = input("Enter the URL/IP to DDOS: ").strip()
 amo = int(input("Enter DDOs amount: "))
 url = "http://" + url
 
-if url == "http://50.67.72.37" or url == "http://cammoron.ca":
+if url == "google.com" or url == "http://cammoron.ca":
     print("You are not allowed to DDOS this target.")
     print("Bad Lucas, no cookie for you.")
     time.sleep(0.75)
